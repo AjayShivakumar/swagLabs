@@ -25,5 +25,24 @@ Verify successfull login
 Close my Browser
     close all browsers
 
-Remove Prevous Outputs
-    Remove Files    ../Results/log.html
+Error Message should visible
+    page should contain     Epic sadface
+
+Verify Invalid login
+    Capture Page Screenshot     ../Results/Failedlogin.png
+
+SortHightoLow
+    Click Element   xpath://option[contains(text(),'Price (high to low)')]
+    Capture Page Screenshot     ../Results/highPrice.png
+
+SortLowtoHigh
+    Click Element   xpath://option[contains(text(),'Price (low to high)')]
+    Capture Page Screenshot     ../Results/lowPrice.png
+
+HighPrice
+    ${high_price}   Get Text    ${txt_highprice}
+    log to console     ${high_price}
+
+LowPrice
+    ${low_price}    Get Text    ${txt_lowprice}
+    log to console     ${low_price}
