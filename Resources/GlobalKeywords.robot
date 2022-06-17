@@ -66,7 +66,7 @@ Add cart2
 View Product
     Click Element   xpath://*[@id="item_4_img_link"]/img
 
-Remove Product
+Remove Product From Cart
     click Element   xpath://button[@id='remove-sauce-labs-backpack']
 
 Back to Home Page

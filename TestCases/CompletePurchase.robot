@@ -38,7 +38,7 @@ Filter with Z to A
 Add and Remove Product
     View Product
     Add cart1
-    Remove Product
+    Remove Product From Cart
     Back to Home Page
 
 Place Order with more than one product
