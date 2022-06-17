@@ -1,0 +1,68 @@
+Test Subject:
+Visit to website https://www.saucedemo.com/. We login to home page and placed order products. 
+Then we will fill customer's information and payment it.
+
+Code Editor:
+PyCharm 2022.1.2 (Community Edition)
+
+Libraries and Frameworks:
+python 3.10.4
+pip 21.3.1
+Selenium 4.2.0
+Robot Framework 5.0.1
+Robot Framework-datadriver 1.6.1
+robotframework-seleniumlibrary 4.2.0
+robotframework-pabot 2.5.3
+
+Features:
+KeywordDriven Testing.
+Parallel Testing.
+Headless Browser Testing.
+Report Generation with Screenshots.
+DataDriven Test support for execute in parallel.
+Cross Browser Testing through different browser like Firefox, Chrome.
+
+KeywordDriven Testing:
+The keyword-driven testing (KDT) approach uses keywords (action words) to determine the functionality under test. 
+Basically, these action words simulate real user actions on the tested application.
+
+Parallel testing:
+The parallel test execution is based on the pabot library feature on Robot. 
+A parallel executor for Robot Framework tests. Split one execution into multiple and save test execution time.
+
+To execute the test cases parallely:
+pabot --processes 2 --outputdir Results TestCases\*.robot
+
+Headless Browser Testing:
+A headless browser is a web browser without a Graphical User Interface (GUI). 
+To put it better, any browser that has the capabilities of a full-fledged web browser but does not have a User Interface and can only be operated using a script or any other software is known as a headless browser.
+
+To execute the test cases with Headless Browser
+Define the browser with headless
+Example: Headlesschrome, Headlessfirefox
+
+Report Generation with Screenshots:
+Robot framework have the great efficiency to generate the reports Automatically and the Screeanshots also taken in various places whenever it is required.
+
+DataDriven Test support for execute in parallel:
+In Robot framework Data-driven with Datadriven testing, input data can be stored in single or multiple data sources like xls, XML, csv, and databases.
+
+Add the Datadriver in Header and data driver library
+Library  DataDriver  ../DATAFOLDER/DATAFILE.csv
+
+Cross Browser Testing:
+In each Test cases the browser types are defined and we can update with the below keywords.
+Example: Headlesschrome, Headlessfirefox
+
+Commands to execute all the Test cases:
+robot TestCases\*.robot 
+
+Last Execution Result:
+Number of Test Cases: 13
+Total Passed: 13
+Total Failed: 0
+Total testing: 52.60 seconds*
+Elapsed time:  41.31 seconds*
+Build Status: STABLE
+
+* This time calculation is generation only on execution is done with Parallel Testing.
