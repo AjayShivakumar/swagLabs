@@ -1,11 +1,11 @@
-Test Subject
+Test Subject:
 Visit to website https://www.saucedemo.com/. We login to home page and placed order products. 
 Then we will fill customer's information and payment it.
 
 Code Editor:
 PyCharm 2022.1.2 (Community Edition)
 
-Libraries and Frameworks
+Libraries and Frameworks:
 python 3.10.4
 pip 21.3.1
 Selenium 4.2.0
@@ -14,7 +14,7 @@ Robot Framework-datadriver 1.6.1
 robotframework-seleniumlibrary 4.2.0
 robotframework-pabot 2.5.3
 
-Features
+Features:
 KeywordDriven Testing.
 Parallel Testing.
 Headless Browser Testing.
@@ -22,11 +22,11 @@ Report Generation with Screenshots.
 DataDriven Test support for execute in parallel.
 Cross Browser Testing through different browser like Firefox, Chrome.
 
-KeywordDriven Testing
+KeywordDriven Testing:
 The keyword-driven testing (KDT) approach uses keywords (action words) to determine the functionality under test. 
 Basically, these action words simulate real user actions on the tested application.
 
-Parallel testing
+Parallel testing:
 The parallel test execution is based on the pabot library feature on Robot. 
 A parallel executor for Robot Framework tests. Split one execution into multiple and save test execution time.
 
@@ -56,3 +56,13 @@ Example: Headlesschrome, Headlessfirefox
 
 Commands to execute all the Test cases:
 robot TestCases\*.robot 
+
+Last Execution Result:
+Number of Test Cases: 13
+Total Passed: 13
+Total Failed: 0
+Total testing: 52.60 seconds*
+Elapsed time:  41.31 seconds*
+Build Status: STABLE
+
+* This time calculation is generation only on execution is done with Parallel Testing.
