@@ -1,0 +1,6 @@
+datasources:7f9d442ea2595c799fd490d73a4a8503bdbc8076
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:e1fda24ed66e020268ec313e6df21f12c2d93b2b
+--suite Suites.CompletePurchase
+--suite Suites.LoginCheck
