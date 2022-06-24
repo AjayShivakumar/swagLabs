@@ -6,7 +6,7 @@ Suite Setup  Open my Browser    ${url}   ${browser}
 Suite Teardown  Close my Browser
 
 *** Variables ***
-${browser}      headlesschrome
+${browser}      chrome
 ${url}      https://www.saucedemo.com/
 ${user}     standard_user
 ${pwd}      secret_sauce
