@@ -8,7 +8,7 @@ Suite Teardown  Close my Browser
 Test Template  Login with Invalid data
 
 *** Variables ***
-${browser}      headlesschrome
+${browser}      Firefox
 ${url}      https://www.saucedemo.com/
 ${user}     standard_user
 ${pwd}      secret_sauce
